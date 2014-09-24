@@ -96,13 +96,13 @@
                                     <rect key="frame" x="16" y="265" width="288" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7h-7Q-Bkm">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmE-wz-4MZ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="288" height="42"/>
+                                    <rect key="frame" x="16" y="72" width="288" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -113,7 +113,7 @@
                                 <exclude reference="Tcj-U1-Ane"/>
                                 <exclude reference="GmX-mv-ZU1"/>
                                 <exclude reference="QZp-Fz-geK"/>
-                                <exclude reference="g7h-7Q-Bkm"/>
+                                <exclude reference="NmE-wz-4MZ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,7 +122,7 @@
                                 <include reference="Tcj-U1-Ane"/>
                                 <include reference="GmX-mv-ZU1"/>
                                 <include reference="QZp-Fz-geK"/>
-                                <include reference="g7h-7Q-Bkm"/>
+                                <include reference="NmE-wz-4MZ"/>
                             </mask>
                         </variation>
                     </view>
@@ -132,7 +132,7 @@
                         <outlet property="enterAMessageTextField" destination="QZp-Fz-geK" id="PEX-YW-Ake"/>
                         <outlet property="enterNameTextField" destination="Tcj-U1-Ane" id="QnQ-Yi-lxz"/>
                         <outlet property="mailButton" destination="GmX-mv-ZU1" id="g9e-UC-mjn"/>
-                        <outlet property="messageLabel" destination="g7h-7Q-Bkm" id="SQW-lB-Z3e"/>
+                        <outlet property="nameLabel" destination="NmE-wz-4MZ" id="T3e-nx-9U8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
